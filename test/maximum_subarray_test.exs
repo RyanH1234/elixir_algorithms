@@ -1,4 +1,4 @@
-defmodule MergeSortTest do
+defmodule MaximumSubarrayTest do
   use ExUnit.Case
 
   test "find maximum subarray of even sized list" do

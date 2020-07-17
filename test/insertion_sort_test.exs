@@ -22,8 +22,8 @@ defmodule InsertionSortTest do
   test "insertion sort on list of size greater than one" do
     list = [5, 7, 9, 10, 3, 1, 2]
 
-    expected = [1, 2, 4, 5, 7, 8, 10]
-    actual = InsertionSort.sort(expected)
+    expected = [1, 2, 3, 5, 7, 9, 10]
+    actual = InsertionSort.sort(list)
 
     assert expected == actual
   end
